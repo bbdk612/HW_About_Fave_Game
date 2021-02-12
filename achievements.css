@@ -1,0 +1,29 @@
+
+
+.achieve {
+	padding: 10px 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.achieves {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+}
+
+.acheive__text {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.achieve__description {
+	font-style: italic;
+	color: #3F3F3F;
+	font-size: 0.8em
+}

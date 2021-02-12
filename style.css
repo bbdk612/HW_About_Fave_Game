@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	background: url(img/stardewbackground.png) no-repeat fixed center center;
+	background-color: #FCF2AD;
+	background-attachment: fixed;
+	background-size: 100vw auto;
+	font-family: "Open Sans", sans-serif;
+
+}
+
+header {
+	background-color: rgba(21, 71, 148, 0.8);
+	display: flex;
+	justify-content: space-around;
+	height: 75px;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000000
+}
+
+
+
+header > .logo {
+	padding-left: 20px;
+}
+
+header > .links {
+	display: flex;
+	justify-content: space-between;
+}
+
+.links > a{
+	padding-right: 15px;
+	color: white;
+	text-decoration-line: none;
+	text-transform: uppercase;
+	font-family: "Nunito", sans-serif;
+	font-weight: 700;
+	font-size: 1.5rem;
+	outline: none;
+}
+
+.links > a:hover {
+	color: #F9EC88;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	outline: none;
+	font-size: 25px;
+}
+
+/*.color_test {
+	height: 10000px;
+}*/
+
+.main_logo {
+	height: 100vh;
+
+}
+
+main {
+	width: 100%;
+	min-height: 100vh;	
+}
+
+.countainer {
+	width: 90%;
+	height: 100%;
+	min-height: 100vh;
+	/*background-color: #FCF2AD;*/
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	padding: 15px;
+}
+
+/*#first__h3 {
+	margin-top: 50vh;
+}*/
+
+.text__for-page {
+	background-color: #FCF2AD;
+	width: 90%;
+	/*min-height: 100vh*/;
+	text-align: center;
+	padding: 40px 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main__list {
+	background-color: #FCF2AD;
+	width: 100%;
+	height: 100vh;
+	/*text-align: center;*/
+	padding-bottom: 30px;
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;*/
+} 
+
+.list__name {
+	text-align: center;
+}
+
+.article_head {
+	/*border-image: url('img/hrspike.png') 6 round round;*/
+	padding: 10px 0 10px 10px;
+	margin: 5px;
+	text-align: center;
+	/*border-top: 2px dotted #444444;*/
+	border-bottom: 2px dotted #444444;
+}
+
+.article_head > h2{
+	margin-bottom: 0;
+}
+
+summary.h3__blue {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+article {
+	padding: 20px;
+}
+
+.article{
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	width: 100%; 
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+	/*justify-content: */
+	/*width: 100%;*/
+	/*float: left;*/
+}
+
+.row > .text {
+	max-width: 65%
+}
+
+.countainer__inner {
+	background-color: #FCF2AD;
+	padding: 20px;
+}
+
+div.img {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left:20px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #1F5D04;
+	max-width: 50%;
+	max-height: 500px;
+	
+	margin: 0 auto;
+
+}
+
+img.img {
+	margin-left:20px;
+	padding: 10px;
+	max-width: 20%;
+	/*max-height: 30vh*/
+}
+
+summary {
+	outline: none;
+}
+
+
+.img__span {
+	display: inline-block;
+	width: 100%;
+	/*max-height: 250px;*/
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 3%
+
+}
+
+.img__IMG {
+	padding: 5px;
+	/*max-width: 30%;*/
+/*	float: right;
+*/	/*width: 250%;*/
+}
+
+.Just_here {
+	padding: 0;
+	height: 100%;
+	background-color: #1F5D04;
+	border: 2px solid #1F5D04;
+	border-radius: 3px;
+}
+
+.center {
+	align-items: center;	
+}
+
+.achieve {
+	padding: 10px 0;
+}
+
+.time-date {
+	color: #595959FF;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+.persona {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-bottom: 2px dotted #444444;
+}
+
+.about_pers {
+	width: 70%;
+}
+
+.persona__img {
+	margin: 15px;
+	border: 5px solid #1F5D04; 
+	height: 30%;
+
+}
+
+.h3__blue, .h3__blue > a {
+	color: #0066CC;
+	font-family: "Nunito"
+}
+
+hr {
+	height: 6px;
+	background-image: url(img/hrspike.png) /*repeat-x 0 0*/;
+	border: 0;
+}
+
+.padding {
+	padding-bottom: 10px;
+}
+
+div.padding {
+	padding-bottom: 20px
+}
+
+p.padding {
+	padding-top: 5px;
+	/*padding-bottom: 15px;*/
+}
+
+b {
+	color: #FF6633;
+}
+
+footer {
+	width: 100%;
+	background-color: #D1C98F;
+	font-weight: 0.6em;
+}
+
+.footer__inner {
+	width: 100%;
+	padding: 15px 0;
+	text-align: center;
+	/*border-top: 3px dotted ;*/
+}
+
+.footer__span {
+	padding: 10px;
+	font-size: 0.8em;
+
+}
+
+.footer__span > a{
+	color: black;
+	font-size: 0.8em;
+	text-decoration: none;
+	outline: none;
+	padding-right: 5px; 
+}
+
+/*.footer__span > a:hover {
+	color: #EDEF5C;
+}*/

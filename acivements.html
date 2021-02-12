@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="achievements.css">
+	<style type="text/css">
+		.countainer {
+			background-color: #FCF2AD;
+		}
+	</style>
+	<title>Достижения</title>
+</head>
+<body style="background-color: #FCF2AD; background-attachment: fixed;">
+	<header id="myHeader">
+		<div class="logo">
+			<img src="img/main_logo.png" alt="Logo" width="100" />
+		</div>
+		<div class="links">
+			<a href="index.html">Главная</a>
+			<a href="articles.html">Об игре</a>
+			<a href="acivements.html">Достижения</a>
+			<a href="https://stardewvalley.fandom.com/ru/wiki/StardewValley_%D0%92%D0%B8%D0%BA%D0%B8">Fandom</a>
+		</div>
+		<!-- <div class="contactWithUs">
+			<a href="http://vk.com" title="VK" target="new">
+				<i class="fab fa-vk"></i>
+			</a>
+		</div> -->
+	</header>
+
+	<main>
+		<div class="countainer">
+			<div class="main__inner">
+				<div class="article_head">
+					<h1 class="h3__blue">Достижения</h1>
+				</div>
+				<div class="achieves">
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Greenhorn.webp">
+						<div class="acheive__text">
+							<span class="achieve__span">Новичок</span>
+							<span class="achieve__description">Заработайте 15 000</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Cowpoke.webp">
+						<div class="acheive__text">
+							<span class="achieve__span">Ковбой</span>
+							<span class="achieve__description">Заработайте 50 000</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_A_New_Friend.webp">
+						<div class="acheive__text">
+							<span class="achieve__span">Новый друг</span>
+							<span class="achieve__description">Достигнуть уровня дружбы в 5 сердечек с кем-либо.</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Best_Friends.webp">
+						<div class="acheive__text">	
+							<span class="achieve__span">Лучшие друзья</span>
+							<span class="achieve__description">Достигнуть уровня дружбы в 10 сердечек с кем-либо.</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Moving_Up.webp">
+						<div class="acheive__text">
+							<span class="achieve__span">Заживем</span>
+							<span class="achieve__description">Расширить свой дом</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Fisherman.webp">
+						<div class="acheive__text">
+							<span class="achieve__span">Рыболов</span>
+							<span class="achieve__description">Поймать 10 разных видов рыб</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Ol_Mariner.webp">
+						<div class="acheive__text">
+							<span class="achieve__span">Старый мореход</span>
+							<span class="achieve__description">Поймать 24 разных вида рыб</span>
+						</div>
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Mother_Catch.webp">
+						
+						<div class="acheive__text">	
+							<span class="achieve__span">Славный улов</span>
+							<span class="achieve__description">Поймать 100 рыб</span>
+						</div>	
+					</div>
+					<div class="achieve">
+						<img class="achieve__img" src="img/achievments/Achievement_Gofer.webp">
+						
+						<div class="acheive__text">
+							<span class="achieve__span">Курьер</span>
+							<span class="achieve__description">Выполнить 10 поручений с доски объявлений
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<div class="footer__inner">
+			<span class="footer__span">Мои вк и почта: 
+				<a href="https://vk.com/bbdk612"><i class="fab fa-vk"></i></a>
+				<a href="mailto:sircenkom239@gmail.com"><i class="fas fa-envelope"></i></a>
+			</span>
+			<span class="footer__span">
+				Discord-сервер <a href="https://discordapp.com/invite/StardewValley"><i class="bi bi-discord"></i></a>
+			</span>
+			<span class="footer__span">
+				Twitter <a href="https://twitter.com/concernedape"><i class="bi bi-twitter"></i></a>
+			</span>
+		</div>
+	</footer>
+
+
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		// Get the header
+		var header = document.getElementById("myHeader");
+
+		// Get the offset position of the navbar
+		var sticky = header.offsetTop;
+
+		// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+		  if (window.pageYOffset > sticky) {
+		    header.classList.add("sticky");
+		  } else {
+		    header.classList.remove("sticky");
+		  }
+		}
+	</script>
+	<script src="https://kit.fontawesome.com/dc6ba0cdcd.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
